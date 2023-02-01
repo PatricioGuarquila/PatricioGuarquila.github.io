@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <title>Flappy Bird Game</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="facil.js" defer></script>
+</head>
+<style>
+    .background {
+    width: 10000px;
+    height: 100vh;
+    background-image: url('../ahorcado/imagenes/8351163.gif');
+    background-size: cover;
+background-repeat: repeat;
+background-attachment: fixed;
+zoom: 100%;
+    }
+    .container {
+
+display: block;
+
+margin-left: auto;
+margin-right: auto;
+text-align: center;
+}
+
+.controls{
+    display: none;
+    visibility: hidden;
+    
+}
+.message{
+    scale: 70%;
+    width: 600px;
+    height:500px;
+    
+}
+</style>
+<body>
+   
+    <div class="background"></div>
+    <img src="../Flappy-Bird-Game-main/images/descarga.png" alt="bird-img" class="bird" id="bird-1">
+    <div class="message">
+        ENTER = COMENZAR <p><span style="color: red;">&uarr;</span> BARRA ESPACIADORA = VOLAR</p>
+    </div>
+    <div class="score">
+        <span class="score_title"></span>
+        <span class="score_val"></span>
+    </div>
+
+    <div class="container">
+        <div class="pixel">
+            <a class="axd" href="../2svs/fac.html"><p>OMITIR</p></a>
+          </div>
+        </div>
+
+        <audio class="controls" src="../Flappy/sounds effect/facil.mp3" autoplay loop controls=false></audio>
+</body>
+</html>

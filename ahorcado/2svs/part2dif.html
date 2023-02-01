@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pagina 1</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=East+Sea+Dokdo&display=swap');
+  </style>
+</head>
+
+
+  <style>
+    @keyframes instruccion1 {
+      0% {
+        transform: translateY(-100%);
+      }
+
+      50% {
+        transform: translateY(25%);
+      }
+
+      100% {
+        transform: translateY(-100%);
+      }
+    }
+
+    @keyframes opacidadInicial {
+      0% {
+        opacity: 0;
+      }
+
+      50% {
+        opacity: 1;
+      }
+
+      100% {
+        opacity: 0;
+      }
+    }
+
+    @keyframes opacidadAni2 {
+      0% {
+        opacity: 1;
+      }
+
+      50% {
+        opacity: 0;
+      }
+
+      100% {
+        opacity: 1;
+      }
+    }
+
+    @keyframes opacidadAni01 {
+      0% {
+        opacity: 0;
+      }
+
+      100% {
+        opacity: 1;
+      }
+    }
+
+    @keyframes opacidadAni10 {
+      0% {
+        opacity: 1;
+      }
+
+      100% {
+        opacity: 0;
+      }
+    }
+
+    @keyframes movimientoIzqDer {
+      0% {
+        transform: translateX(-100%);
+      }
+
+      100% {
+        transform: translateX(0%);
+      }
+    }
+
+    @keyframes movimientoDerIzq {
+      0% {
+        transform: translateX(100%);
+      }
+
+      100% {
+        transform: translateX(0%);
+      }
+    }
+
+    @keyframes movimientoArrBaj {
+      0% {
+        transform: translateY(-100%);
+      }
+
+      100% {
+        transform: translateY(0%);
+      }
+    }
+
+    @keyframes movimientoBajArr {
+      0% {
+        transform: translateY(100%);
+      }
+
+      100% {
+        transform: translateY(0%);
+      }
+    }
+
+    
+    body {
+        width: 1000px;
+                margin: 0 auto;
+                background-image: url(../2svs/fondo\ para\ antes\ de\ ahorcado.gif);
+                background-size: cover;
+  background-repeat: repeat;
+  background-attachment: fixed;
+  height: 100vh;
+  zoom: 100%;
+    }
+
+    p {
+      position: fixed;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 100%;
+      font-size: 150px;
+      text-align: center;
+      color: #ff0505;
+      animation-name: instruccion1, opacidadInicial;
+      animation-duration: 5s;
+      animation-timing-function: cubic-bezier(0, .5, .5, 1);
+      animation-delay: 0s;
+      animation-iteration-count: 1;
+      animation-fill-mode: forwards;
+      font-family: 'East Sea Dokdo', cursive;
+    }
+
+
+    .container {
+  position: relative;
+}
+    .texto{
+     
+      animation-name: opacidadAni10, opacidadAni01;
+      animation-duration: 0.1s, 2s;
+      animation-timing-function: ease-in-out;
+      animation-delay: 0s, 5s;
+      animation-iteration-count: 1;
+      animation-fill-mode: forwards;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, 120%);
+      color: rgb(0, 0, 0);
+      font-size: 20px;
+      text-align: center;
+    }
+    
+    #Personaje4 {
+      animation-name: opacidadAni01, movimientoArrBaj;
+      animation-duration: 1s;
+      animation-timing-function: ease-out;
+      animation-delay: 1s;
+      animation-iteration-count: 1;
+      animation-fill-mode: forwards;
+      width:1000px;
+      height:1000px;
+      animation-name: opacidadAni10, opacidadAni01;
+      animation-duration: 0.1s, 2s;
+      animation-timing-function: ease-in-out;
+      animation-delay: 0s, 3s;
+      animation-iteration-count: 1;
+      animation-fill-mode: forwards;
+    }
+   
+
+    .controls{
+    display: none;
+    visibility: hidden;
+    
+}
+
+
+.container {
+  position: relative;
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+
+.text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  animation-name: opacidadAni10, opacidadAni01;
+      animation-duration: 0.1s, 2s;
+      animation-timing-function: ease-in-out;
+      animation-delay: 0s, 5s;
+      animation-iteration-count: 1;
+      animation-fill-mode: forwards;
+      position: absolute;
+      color: white;
+      
+}
+.manita{
+    translate: 1000px -70px;
+    width: 80px;
+    height: 70px;
+    
+}
+img {
+  animation: your-animation-name 5s linear infinite;
+  animation-name: opacidadAni01, movimientoArrBaj;
+      animation-duration: 1s;
+      animation-timing-function: ease-out;
+      animation-delay: 1s;
+      animation-iteration-count: 1;
+      animation-fill-mode: forwards;
+      width:700px;
+      height:600px;
+      animation-name: opacidadAni10, opacidadAni01;
+      animation-duration: 0.1s, 2s;
+      animation-timing-function: ease-in-out;
+      animation-delay: 0s, 3s;
+      animation-iteration-count: 1;
+      animation-fill-mode: forwards;
+}
+
+.manita{
+    translate: 1000px -70px;
+    width: 80px;
+    height: 70px;
+    
+}
+  </style>
+ 
+   
+
+<body>
+  <p>¿Qué es lo que quieres?</p>
+
+  
+  <div class="container">
+    <img src="../PantallaFinal/Monster-PNG-Clipart.png" alt="your-image-description">
+    <div class="text">Si lo quieres debes salvarlo con este desafio, intentalo si puedes</div>
+  </div>
+
+
+
+
+  <audio class="controls" src="../2svs/ahorcado2.mp3" autoplay loop controls=false></audio>
+  
+  <a href="../ahorcado/ahorcadodificil.html"> <img class="manita" src="../2svs/arrow.gif" ></a>
+   
+  
+</body>
+ 
+
+
+</html>
